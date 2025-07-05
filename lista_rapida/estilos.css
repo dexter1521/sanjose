@@ -1,0 +1,360 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	outline: none;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html {
+	height: 100%;
+	display:inline-block;
+}
+
+body {
+	display:block;
+	font: .81em/150% Arial, Helvetica, sans-serif;	
+	background: #eee;
+	width: 100%;
+	height: 100%;
+}
+
+
+#portada{
+	display: block;
+	width: 99%;
+	height:auto;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+}
+#encabezado{
+	display: block;
+	padding: 0.5%;
+	background-color: #E9E61D;
+	border-bottom: 1px solid #B28600;
+	top: 0;
+	z-index: 999;
+}
+
+
+/*ESTILOS DEL CONTENIDO INICIAL*/
+#contenedor{
+	display:inline-block;
+	width:100%;
+	height:100%;
+	background: #FFFFFF;
+	margin-left:0.5%;
+	overflow-y:scroll;
+}
+
+#textoPiePagina{
+	display: block;
+	text-align: center;
+	color:#DAEEFF;
+	font-style: oblique;
+	font-weight: normal;
+	font-size: 90%;
+}
+
+#contenedor{
+	display:block;
+	width:99%;
+	height:auto;
+	background: #eee;
+	margin:0.5%;
+}
+
+#textoPiePagina{
+	display: block;
+	text-align: center;
+	color:#DAEEFF;
+	font-style: oblique;
+	font-weight: normal;
+	font-size: 90%;
+}
+
+#titulo{
+	/*forma en que se muestra el contenido, en este caso en bloque*/
+	display: block;
+	
+	/*separación entre el borde y contenido de la etiqueta*/
+	padding:1%; 
+	
+	background:#bd2e2e;
+	color:white;
+	
+	/*alineación de texto*/
+	text-align:center;	
+	font-weight: BOLD;
+	font-size: 26px;
+	
+}
+
+#subtitulo{
+	background: #006600 ;
+	/*border: #000 solid 2px;
+	/*border-radius: 10px;*/
+	color: #ffffff;
+	display: inline-block;
+	font-size: 22px;
+	font-weight: bold;
+	padding: 10px 10px;	
+	text-align: center;
+	min-width: 15px;
+	width: 98%;	
+	margin-top:0.5%;
+	margin-bottom:0.5%;
+	margin-left: 1%;
+	margin-right: 1%;	
+}
+
+/*ESTILOS DEL CATALOGO DE PRODUCTOS*/
+.conten_producto{
+	display:inline-block;
+	width:45%;
+	height:auto;
+	margin-left: 0%;
+	margin-top: 0%;
+	
+	margin-top:1%;	
+	margin-bottom:1%;
+	text-align:center;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;	
+	-webkit-box-shadow: 0px 0px 5px #000000;
+	box-shadow: 0px 0px 5px #000000;
+	
+}
+.conten_producto:hover{ 	
+	-webkit-border-radius: 3px;
+	border-radius: 10px;	
+	-webkit-box-shadow: 0px 0px 12px 2px #042700;
+	box-shadow: 0px 0px 12px 2px #042700;
+}
+
+/*--*/
+.nombre2{	
+    display:inline-block;
+	font-size: 24px;
+	font-weight: bold;
+	color:white; 		
+	width: 94%;		
+	text-align: center;		
+    padding: 2%
+}
+
+
+/*--*/
+.nombre{	
+    display:inline-block;
+	font-size: 18px;
+	font-weight: bold;
+	color:darkblue; 		
+	width: 94%;		
+	text-align: left;		
+    padding: 0.5%
+}
+
+/*--*/
+.precio{	
+    display:inline-block;			
+	font-size: 18px;	
+	font-weight: bold;
+    color: #000000;	
+	width: 94%;		
+	text-align: left;	
+	line-height: 20px;
+    padding: 1%	
+}
+
+.fecha{
+	display:inline-block;			
+	font-size: 18px;	
+	font-weight: bold;
+    color: #FF0000;	
+	width: 94%;		
+	text-align: left;	
+	line-height: 5px;
+    padding: 0.5%	
+}
+
+
+.cantidad{
+	display:inline-block;			
+	font-size: 14px;	
+    color: #000000;	
+	width: 94%;		
+	text-align: center;		
+    padding: 0.5%	
+}
+
+.unidad{	
+	font-size: 16px;
+	color:darkblue; 		
+	text-align: center;
+	padding: 0.5%
+}
+
+.facturar{
+	display:inline-block;			
+	font-size: 14px;
+	font-weight: bold;	
+	color: #0000ff;	
+	text-align:center;
+	margin-bottom:1%;
+	margin-top: 1%;
+	margin-left:1%;
+	width: 94%;	
+}
+
+.categoria{
+	display:inline-block;			
+	font-size: 13px;
+	font-weight: bold;	
+	color: #0000ff;	
+	text-align:center;
+	margin-bottom:1%;
+	margin-top: 1%;
+	margin-left:1%;
+	width: 94%;	
+}
+
+
+/*--*/
+/*Estilos para el cuadro de diálogo emergente*/
+.btn { /*estilos para el botón del diálogo*/
+  background: #428bca;
+  border: #357ebd solid 1px;
+  border-radius: 3px;
+  color: #fff;
+  display: inline-block;
+  font-size: 21px;
+  padding: 8px 15px;
+  text-decoration: none;
+  text-align: center;
+  min-width: 60px;
+  position: relative;
+  transition: color .1s ease;
+}
+
+/*estilos para cuando es pulsado el botón de diálogo*/
+.btn:hover { 
+	background: #357ebd; 
+} 
+
+.boton {
+	background:linear-gradient(to bottom, #3f8551 5%, #59a82f 100%);
+	background-color:#3f8551;
+	border-radius:12px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+    border: 1px solid #e7e7e7;
+}
+
+.boton:hover {
+	background:linear-gradient(to bottom, #59a82f 5%, #3f8551 100%);
+	background-color:#59a82f;
+}
+
+.boton:active {
+	position:relative;
+	top:1px;
+}
+
+table.blueTable {
+  border: 1px solid #00FF00;
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 10%;
+  text-align: center;
+  position: relative;
+  border-collapse: collapse; 
+  /*text-align: left;*/
+}
+
+table.blueTable td, table.blueTable th {  
+  padding: 10px 7px;
+  /*text-align: left;*/
+  border-left: 1px solid #000000;  
+}
+
+table.blueTable tbody td {
+  font-size: 1.5em;  
+  /*text-align: left;*/
+  vertical-align: middle;
+  border-left: 1px solid #D30000;  
+}
+
+table.blueTable tr:nth-child(even) {
+  background: #FFFFFF;  
+  border: 1px solid #D30000;  
+}
+
+table.blueTable thead {    
+    position: sticky;
+    top: 0; /* Don't forget this, required for the stickiness */     
+    background: #ff0004; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ff0004 1%, #890202 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #ff0004 1%,#890202 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #ff0004 1%,#890202 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    border: 1px solid #D30000;    
+}
+
+table.blueTable thead th {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: #FFFFFF;  
+}
+
+table.blueTable thead th:first-child {  
+  position: sticky;
+  top: 0; /* Don't forget this, required for the stickiness */ 
+}
+
+
+table.blueTable tbody tr:hover {        
+    font-weight: bold;    
+    background: rgb(254,252,234); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(254,252,234,1) 0%, rgba(241,218,54,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(254,252,234,1) 0%,rgba(241,218,54,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(254,252,234,1) 0%,rgba(241,218,54,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */    
+}
+
+#jAlert_table, #jAlert_th, #jAlert_td{
+    border: 2px solid blue;
+    background-color:lightblue;
+    border-collapse: collapse;
+    width=100px;
+}
+
+#jAlert_th, #jAlert_td{
+    padding:5px;
+    padding-right:10px;
+    padding-left:10px;
+}
+
+#jAlert{
+    /* Position fixed */
+    position:fixed;
+    /* Center it! */
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+}
+
